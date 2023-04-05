@@ -175,10 +175,7 @@ def pregunta_10():
     aux = tbl0
     aux['_c2'] = aux['_c2'].apply(str)
     resp = aux.groupby('_c1').agg({'_c2': ':'.join})
-
-    # Reset the index and rename columns
-    resp = resp.reset_index().rename(columns={'_c1': '_c0', '_c2': '_c1'})
-    resp['_c1'] = resp['_c1'].apply(lambda x: ':'.join(sorted(x.split(':'))))
+    resp['_c2'] = resp['_c2'].apply(lambda x: ':'.join(sorted(x.split(':'))))
     return resp
 
 
@@ -199,7 +196,7 @@ def pregunta_11():
     39   39    a,d,f
     """
     tbl1 = pd.read_csv("./tbl1.tsv", sep="\t")
-    resp = tbl1.groupby('_c0').agg({'_c4': ','.join})
+    resp = tbl1.groupby('_c0', as_index=False).agg({'_c4': ','.join})
     resp['_c4'] = resp['_c4'].apply(lambda x: ','.join(sorted(x.split(','))))
     return resp
 
@@ -222,7 +219,7 @@ def pregunta_12():
     tbl2 = pd.read_csv("./tbl2.tsv", sep="\t")
     aux = tbl2
     aux['_c5'] = aux["_c5a"] + ':' + aux["_c5b"].apply(str)
-    aux = aux.groupby('_c0').agg({'_c5': ','.join})
+    aux = aux.groupby('_c0', as_index=False).agg({'_c5': ','.join})
     aux['_c5'] = aux['_c5'].apply(lambda x: ','.join(sorted(x.split(','))))
     return aux
 
