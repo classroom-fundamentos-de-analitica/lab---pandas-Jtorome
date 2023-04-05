@@ -23,6 +23,7 @@ def pregunta_01():
 
     """
     resp = len(tbl0)
+    print(resp)
     return resp
 
 
