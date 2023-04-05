@@ -3,7 +3,7 @@
     {
       "name": "Pregunta 01",
       "setup": "pip3 install pandas==1.1.5",
-      "run": "python3 tests.py 01",
+      "run": "python3 tests.py test_01",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "Pregunta 02",
       "setup": "pip3 install pandas==1.1.5",
-      "run": "python3 tests.py 02",
+      "run": "python3 tests.py test_02",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "Pregunta 03",
       "setup": "pip3 install pandas==1.1.5",
-      "run": "python3 tests.py 03",
+      "run": "python3 tests.py test_03",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "Pregunta 04",
       "setup": "pip3 install pandas==1.1.5",
-      "run": "python3 tests.py 04",
+      "run": "python3 tests.py test_04",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -43,7 +43,7 @@
     {
       "name": "Pregunta 05",
       "setup": "pip3 install pandas==1.1.5",
-      "run": "python3 tests.py 05",
+      "run": "python3 tests.py test_05",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -53,7 +53,7 @@
     {
       "name": "Pregunta 06",
       "setup": "pip3 install pandas==1.1.5",
-      "run": "python3 tests.py 06",
+      "run": "python3 tests.py test_06",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -63,7 +63,7 @@
     {
       "name": "Pregunta 07",
       "setup": "pip3 install pandas==1.1.5",
-      "run": "python3 tests.py 07",
+      "run": "python3 tests.py test_07",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -73,7 +73,7 @@
     {
       "name": "Pregunta 08",
       "setup": "pip3 install pandas==1.1.5",
-      "run": "python3 tests.py 08",
+      "run": "python3 tests.py test_08",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -83,7 +83,7 @@
     {
       "name": "Pregunta 09",
       "setup": "pip3 install pandas==1.1.5",
-      "run": "python3 tests.py 09",
+      "run": "python3 tests.py test_09",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -93,7 +93,7 @@
     {
       "name": "Pregunta 10",
       "setup": "pip3 install pandas==1.1.5",
-      "run": "python3 tests.py 10",
+      "run": "python3 tests.py test_10",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -103,7 +103,7 @@
     {
       "name": "Pregunta 11",
       "setup": "pip3 install pandas==1.1.5",
-      "run": "python3 tests.py 11",
+      "run": "python3 tests.py test_11",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -113,7 +113,7 @@
     {
       "name": "Pregunta 12",
       "setup": "pip3 install pandas==1.1.5",
-      "run": "python3 tests.py 12",
+      "run": "python3 tests.py test_12",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -123,7 +123,7 @@
     {
       "name": "Pregunta 13",
       "setup": "pip3 install pandas==1.1.5",
-      "run": "python3 tests.py 13",
+      "run": "python3 tests.py test_13",
       "input": "",
       "output": "",
       "comparison": "included",
